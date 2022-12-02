@@ -54,7 +54,7 @@ $pollresults = $result->GetLgaResult();
                         <?php echo $pollresult['lga_name'] ?><label for="">
                             <ul style="list-style-type:none;">
                                 <li>
-                                    <input type="checkbox" value="<?php echo $pollresult['lga_id'] ?>" name="<?php echo $pollresult['lga_name'] ?>">
+                                    <input type="checkbox" value="<?php echo $pollresult['lga_id'] ?>" name="<?php echo $pollresult['lga_name'] ?>"required>
                                 </li>
 
                             </ul>

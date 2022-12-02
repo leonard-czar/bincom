@@ -17,11 +17,7 @@ $pollresults = $result->GetResult();
 </head>
 
 <body>
-    <?php
-    if (isset($_REQUEST['Sapele']) && $_REQUEST['Sapele']) {
-
-
-    ?>
+   
 
         <div class="row mt-2" style="justify-content:center ;">
 
@@ -53,10 +49,7 @@ $pollresults = $result->GetResult();
                 </div>
             </div>
         </div>
-    <?php } else {
-        $msg = "please tick the checkbox to view result!";
-        header("Location: pollunitsum.php?msg=$msg");
-    } ?>
+    
     <script src="bootstrap/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
