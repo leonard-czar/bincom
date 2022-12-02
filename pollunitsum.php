@@ -14,7 +14,6 @@ $pollresults = $result->GetLgaResult();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
-    <link rel="stylesheet" href="bootstrap/bootstrap/css/bootstrap.css">
 </head>
 
 <body>
